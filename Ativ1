@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atividade 1 - Web1</title>
+	</head>
+	<body>
+
+		<h1>Lista de Tarefas</h1>
+		<hr>
+
+		<h2>Tarefas</h2>
+		<ul style="list-style-type:disc;">
+			<li>Atividade 1</li>
+			<li>Atividade 2</li>
+			<li>Atividade 3</li>
+		</ul>
+
+		<p>Atribuido: Fulano</p>
+		<p>Prazo de Entrega: xx/yy</p>
+
+		<br>
+		<hr>
+
+		<h2>Adicionar Atividade</h2>
+		<p>Descrição: <input type="text" name="Descricao"><br></p>
+		<p>Atribuido: <input type="text" name="Atribuido"><br></p>
+		<p>Prazo de Entrega: <input type="text" name="PrazoEntrega"><br></p>
+		<button>Adicionar</button> <button>Cancelar</button>
+		
+		<br>
+		<br>
+		<hr>
+
+		<h2>Remover Atividade</h2>
+
+		<p>Descrição: <input type="text" name="Descricao"><br></p>
+		<button>Remover</button> <button>Cancelar</button>
+
+
+	</body>
+</html>
